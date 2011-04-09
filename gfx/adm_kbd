@@ -1,0 +1,3 @@
+wget 'http://vt100.net/lsi/adm3a-om/adm3a-om.pdf'
+pdftk adm3a-om.pdf cat 36-36 output adm3a-kbd_full.pdf
+pdfimages adm3a-kbd_full.pdf adm3a-kbd
